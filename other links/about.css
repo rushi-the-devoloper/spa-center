@@ -1,0 +1,20 @@
+/* about section*/
+.about-image{
+    position: relative;
+}
+.about-image ::before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    bottom: 30px;
+    background-color: #fff;
+    height: 115%;
+    width: 40%;
+    z-index: 1;
+}
+.about-image img{
+    z-index: 2 !important;
+    position: relative;
+}
+/* about section end*/
