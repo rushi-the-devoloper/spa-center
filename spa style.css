@@ -87,6 +87,19 @@ p{
     border: none;
     box-shadow: 0px 0px  10px black;
 }
+#first-service:hover{
+    transform: rotate(360deg);
+    transition: 1.5s;}
+    
+#second-service:hover{
+    transform: rotateX(360deg);
+    transition: 1.5s;
+}
+
+#third-service:hover{
+    transform: rotateY(360deg);
+    transition: 1.5s;
+}
 /* our services card style end here*/
 /* pricing card style start here*/
 .price-card .btn{
